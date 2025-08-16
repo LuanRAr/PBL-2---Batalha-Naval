@@ -2,6 +2,7 @@
 Criação de um jogo de batalha naval utilizando alguns princípios básicos de Python. Alguns recursos foram proibidos.
 
 📌 Funcionalidades
+
 Tabuleiro 10x10 para cada jogador.
 Posicionamento manual dos barcos do jogador.
 Posicionamento automático e aleatório dos barcos do computador.
@@ -10,6 +11,7 @@ Cores no terminal para diferenciar acertos e erros.
 Condições de vitória e derrota com mensagens finais personalizadas.
 
 🎮 Como jogar
+
 Clone ou baixe este repositório.
 Certifique-se de ter o Python 3.10 (ou superior) instalado.
 Execute o arquivo principal no terminal:
@@ -26,10 +28,12 @@ O → erro.
 O primeiro a atingir 16 acertos vence.
 
 📊 Placar
+
 EU → Pontuação do jogador.
 COMPUTADOR → Pontuação da máquina.
 
 🛠 Estrutura do código
+
 cria_matriz() → cria os tabuleiros.
 posicionar() → posiciona barcos do jogador.
 barcos() → organiza os navios do jogador.
@@ -39,6 +43,7 @@ tiro_inimigo() → jogada do computador.
 placar() → mostra o resultado parcial.
 
 🏆 Condições de vitória
+
 O jogo termina quando:
 Você atinge 16 pontos → Vitória.
 O computador atinge 16 pontos → Derrota.
